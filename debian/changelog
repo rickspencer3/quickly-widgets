@@ -1,0 +1,32 @@
+quickly-widgets (10.04.1) lucid; urgency=low
+
+  * New  bugfix release (LP: #555935)
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 06 Apr 2010 12:10:58 +0200
+
+quickly-widgets (10.04) lucid; urgency=low
+
+  * New bugfix release
+  * debian/control:
+    - depends on python-quickly-core (LP: #519633)
+    - bump Standards-Version to 3.8.4
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 02 Apr 2010 10:33:44 +0200
+
+quickly-widgets (10.02.2) lucid; urgency=low
+
+  * Add a dependency on quickly (LP: #517441)
+
+ -- Brian Murray <brian@ubuntu.com>  Fri, 12 Feb 2010 15:52:09 -0800
+
+quickly-widgets (10.02.1) lucid; urgency=low
+
+  * Remove __init__.py file conflicting with Quickly
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 03 Feb 2010 15:11:09 -0800
+
+quickly-widgets (10.02) lucid; urgency=low
+
+  * This is the initial release
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 03 Feb 2010 11:27:01 -0800

@@ -1,0 +1,25 @@
+Source: quickly-widgets
+Section: python
+Priority: extra
+Build-Depends: cdbs (>= 0.4.43),
+ debhelper (>= 6),
+ python,
+ python-central (>= 0.6.11),
+ python-distutils-extra (>= 2.10)
+Maintainer: Rick Spencer <rick.spencer@canonical.com>
+Standards-Version: 3.8.4
+XS-Python-Version: current
+
+Package: quickly-widgets
+Architecture: all
+XB-Python-Version: ${python:Versions}
+Depends: ${misc:Depends},
+ ${python:Depends},
+ python-quickly-core,
+ python-gobject,
+ python-testtools,
+ python-pygame,
+ python-gtk2
+Description: Library for easing some PyGtk coding tasks
+ Library for easing some PyGtk coding tasks. Note that this is experimental,
+ the API will change, there are bugs.

@@ -1,0 +1,10 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
+Upstream-Name: quidgets
+Upstream-Maintainer: Rick Spencer <rick.spencer@canonical.com>
+Upstream-Source: http://launchpad.net/quidgets
+
+Files: *
+Copyright: (C) 2010 Rick Spencer <rick.spencer@canonical.com>
+License: GPL-3
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/GPL-3 on Debian systems.

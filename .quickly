@@ -1,0 +1,3 @@
+project = quidgets
+template = python-library
+format = 0.3
